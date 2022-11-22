@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <script src="https://ajax.googleapise.com/ajax/libs/angulaerjs/1.6.9/angular.min.js"></script>
 <body>
@@ -14,7 +13,7 @@ $http.get("welcome.http")
 .then(function(response){
   $scope.myWelcome=respomse.data;
   });
-  }0;
+  });
   </script>
   </body>
   </html>
